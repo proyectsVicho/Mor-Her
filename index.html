@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mor&amp;Her · Creación y diseño de sitios web</title>
-<meta name="description" content="Mor&amp;Her: creación y diseño de sitios web a medida por Vicente Moreno y Laura Herrera. Cotiza online y pide un prototipo gratis por WhatsApp.">
+<title>HerMor · Creación y diseño de sitios web</title>
+<meta name="description" content="HerMor: creación y diseño de sitios web a medida por Vicente Moreno y Laura Herrera. Cotiza online y pide un prototipo gratis por WhatsApp.">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Mor&amp;Her">
-<meta property="og:title" content="Mor&amp;Her · Creación y diseño de sitios web">
+<meta property="og:site_name" content="HerMor">
+<meta property="og:title" content="HerMor · Creación y diseño de sitios web">
 <meta property="og:description" content="Sitios web a medida, cotizador online y prototipo gratis. Creado por Vicente Moreno y Laura Herrera.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230F1B3D'/%3E%3Ctext x='32' y='40' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23FF6B6B' text-anchor='middle'%3EM%26H%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230F1B3D'/%3E%3Ctext x='32' y='40' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23FF6B6B' text-anchor='middle'%3EHM%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Cormorant+Garamond:ital,wght@1,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
@@ -180,7 +180,7 @@ body.hb .fab,body.hb #help{bottom:88px}
 <body>
 <header>
   <div class="wrap nav">
-    <a class="logo" href="#inicio">Mor<b>&amp;</b>Her</a>
+    <a class="logo" href="#inicio">Her<b>Mor</b></a>
     <nav aria-label="Principal"><ul>
       <li><a href="#nosotros">Nosotros</a></li><li><a href="#micurso">MiCurso</a></li><li><a href="#packs">Packs</a></li><li><a href="#cotizador">Cotizador</a></li><li><a href="#hablemos">Contacto</a></li>
       <li><a class="btn sm" href="#prototipo">Prototipo gratis</a></li>
@@ -209,10 +209,10 @@ body.hb .fab,body.hb #help{bottom:88px}
   </div></section>
 
   <section class="about" id="nosotros"><div class="wrap">
-    <h2>Somos una pareja Joven que se especializa en la creación y diseño web.</h2>
-    <p>Mor&amp;Her nace de dos personas que se dedican al diseño y la creación web. Trabajamos juntos en cada proyecto y hablas directamente con quienes construyen tu sitio.</p>
+    <h2>Somos una pareja adolescente que se especializa en la creación y diseño web.</h2>
+    <p>HerMor nace de dos personas que se dedican al diseño y la creación web. Trabajamos juntos en cada proyecto y hablas directamente con quienes construyen tu sitio.</p>
     <figure class="couple">
-      <div class="couple-photo"><img src="fotos/vicente-laura.jpg" alt="Vicente Moreno y Laura Herrera, fundadores de Mor&amp;Her" loading="lazy" onerror="this.closest('.couple-photo').classList.add('ph')"></div>
+      <div class="couple-photo"><img src="fotos/vicente-laura.jpg" alt="Vicente Moreno y Laura Herrera, fundadores de HerMor" loading="lazy" onerror="this.closest('.couple-photo').classList.add('ph')"></div>
       <figcaption>Vicente Moreno &amp; Laura Herrera</figcaption>
     </figure>
     <div class="duo">
@@ -310,16 +310,16 @@ body.hb .fab,body.hb #help{bottom:88px}
 </main>
 
 <footer><div class="wrap">
-  <a class="logo" href="#inicio">Mor<b>&amp;</b>Her</a>
+  <a class="logo" href="#inicio">Her<b>Mor</b></a>
   <p>Diseño y creación web por Vicente Moreno y Laura Herrera.</p>
-  <p>© <span id="anio">2026</span> Mor&amp;Her</p>
+  <p>© <span id="anio">2026</span> HerMor</p>
 </div></footer>
 
 <div id="bar"><div><small id="bn"></small><b id="bt"></b></div><button class="btn" id="bq" type="button">Ver cotización</button></div>
 
 <button class="fab" id="fab" type="button" aria-expanded="false" aria-controls="help">¿Necesitas ayuda?</button>
 <div id="help" role="dialog" aria-label="Guía de ayuda" hidden>
-  <div class="hh"><b>Guía Mor&amp;Her</b><button id="hx" type="button" aria-label="Cerrar ayuda">×</button></div>
+  <div class="hh"><b>Guía HerMor</b><button id="hx" type="button" aria-label="Cerrar ayuda">×</button></div>
   <p id="hm"></p><div id="ho"></div>
 </div>
 
@@ -413,16 +413,16 @@ $("#anio").textContent=new Date().getFullYear();render();
 
 // Mensajes: todo llega directo a tu WhatsApp
 const waURL=t=>"https://wa.me/"+WA+"?text="+encodeURIComponent(t);
-$("#wal").href=waURL("Hola Mor&Her, quiero más información.");
+$("#wal").href=waURL("Hola HerMor, quiero más información.");
 function toWA(sel,txt){const el=$(sel),u=waURL(txt),a=document.createElement("a");
   a.href=u;a.target="_blank";a.rel="noopener";a.textContent="toca aquí";a.style.color="inherit";
   el.hidden=false;el.textContent="Se abrió WhatsApp con tu mensaje listo: solo presiona enviar. Si no se abrió, ";el.append(a,".");
   window.open(u,"_blank","noopener")}
 $("#contacto").onsubmit=e=>{e.preventDefault();const g=i=>$("#"+i).value.trim();
-  toWA("#okp",`Hola Mor&Her, soy ${g("nombre")}. Quiero el prototipo gratis.\nTipo de sitio: ${g("tipo")}\nMi idea: ${g("msg")}\nMi WhatsApp: ${g("tel")}\nMi correo: ${g("email")}`);e.target.reset()};
+  toWA("#okp",`Hola HerMor, soy ${g("nombre")}. Quiero el prototipo gratis.\nTipo de sitio: ${g("tipo")}\nMi idea: ${g("msg")}\nMi WhatsApp: ${g("tel")}\nMi correo: ${g("email")}`);e.target.reset()};
 $("#bq").onclick=()=>{$("#qs").textContent=summary();$("#qr").textContent=recoText(calc());$("#okq").hidden=true;$("#quote").showModal()};
 $("#qf").onsubmit=e=>{e.preventDefault();const s=summary(),g=i=>$("#"+i).value.trim();
-  toWA("#okq",`Hola Mor&Her, soy ${g("qn")}. Mi cotización:\n${s}${g("qm")?"\nComentarios: "+g("qm"):""}\nMi WhatsApp: ${g("qt")}\nMi correo: ${g("qe")}`)};
+  toWA("#okq",`Hola HerMor, soy ${g("qn")}. Mi cotización:\n${s}${g("qm")?"\nComentarios: "+g("qm"):""}\nMi WhatsApp: ${g("qt")}\nMi correo: ${g("qe")}`)};
 $$("[data-close]").forEach(b=>b.onclick=()=>b.closest("dialog").close());
 
 // Menú hamburguesa (móvil)
@@ -448,7 +448,7 @@ function start(){say("¡Hola! Te guío por la página. ¿Qué quieres hacer?",[[
 function need(){say("¿Qué necesita tu sitio?",[...NEEDS.map(n=>[n[0],()=>rec(n[1])]),["Volver",start]])}
 function rec(id){const p=PACKS.find(x=>x.id==id);
   say(`Te recomiendo el Pack ${p.n}, ${CL(p.price)}. ${p.d} ¿Lo cargo en el cotizador para que le agregues extras?`,[["Sí, cargarlo",()=>{base=p;render();go("#cotizador")}],["Ver otras opciones",need]])}
-function talk(){say("¿Cómo prefieres contactarnos?",[["Escribir por WhatsApp",()=>window.open(waURL("Hola Mor&Her, necesito ayuda."),"_blank","noopener")],["Llamar por teléfono",()=>{location.href="tel:+"+WA}],["Ver horarios de atención",()=>go("#hablemos")],["Volver",start]])}
+function talk(){say("¿Cómo prefieres contactarnos?",[["Escribir por WhatsApp",()=>window.open(waURL("Hola HerMor, necesito ayuda."),"_blank","noopener")],["Llamar por teléfono",()=>{location.href="tel:+"+WA}],["Ver horarios de atención",()=>go("#hablemos")],["Volver",start]])}
 fab.onclick=()=>{help.hidden=false;fab.setAttribute("aria-expanded","true");start()};
 $("#hx").onclick=closeHelp;
 </script>
